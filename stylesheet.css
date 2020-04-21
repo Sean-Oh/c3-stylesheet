@@ -23,11 +23,11 @@
 }
 
 .co-header-countdown-time div:first-child {
-  border-left: 0;
+  border-right: 0;
 }
 
 .co-header-countdown-time div {
-  border-left: 0;
+  border-right: 0;
 }
 
 .co-countdown-digit {
@@ -57,4 +57,8 @@
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+}
+
+.co-reminder-header button i {
+  display: none;
 }
