@@ -1,6 +1,13 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
 /* Header Styles */
 .top-bar-section li:not(.has-form) a:not(.button),
 .co-account span {
+  font-family: canada-type-gibson, sans-serif;
   line-height: 24px;
   padding: 0px;
   margin: 5px 20px 5px 0;
@@ -15,7 +22,7 @@
 /* Countdown Styles */
 .co-reminder-header > div {
   padding: 30px 0px;
-  background: #ffc6b5;
+  background: #d43724;
 }
 
 .co-reminder-header-title {
@@ -34,13 +41,13 @@
   font-size: 2rem;
   line-height: 0.8;
   display: block;
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
 .co-countdown-digit-label {
   font-size: 10px;
-  color: black;
+  color: white;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -61,4 +68,93 @@
 
 .co-reminder-header button i {
   display: none;
+}
+
+.top-bar-section .co-account-dropdown {
+  content: " ";
+  margin-top: 40px;
+  background-color: #16161d;
+  padd: 5px 0;
+  border-radius: 2px;
+  z-index: 10;
+}
+
+.co-account .co-account-dropdown {
+  width: 135px;
+}
+
+.top-bar-section ul.co-account-dropdown li:not(.has-form) a:not(.button) {
+  padding: 0 15px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.4);
+  transition: color 1s ease-in;
+}
+
+.top-bar-section ul.co-account-dropdown li:not(.has-form) a:not(.button):hover {
+  color: white;
+}
+
+.co-account-dropdown i {
+  display: none;
+}
+
+.co-account-dropdown .co-divider {
+  display: none;
+}
+
+/* Tabs */
+.co-tabs-content {
+  padding-bottom: 40px;
+}
+
+.co-widget-tabs {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.co-widget-tabs li.co-active {
+  border-radius: 300px;
+  color: white;
+}
+
+.co-widget-tabs li {
+  padding: 10px 20px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transition: background-color 0.5s ease-in;
+}
+
+/* Table */
+table {
+  border: 0;
+}
+
+table tr.even,
+table tr.alt,
+table tr:nth-of-type(even) {
+  background: white;
+}
+
+table tbody tr td,
+table tr td {
+  line-height: 25px;
+}
+
+.co-event-day-header h3 {
+  color: black;
+  font-weight: 700;
+}
+
+/* Other */
+.co-live-prayer {
+  border-radius: 300px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
