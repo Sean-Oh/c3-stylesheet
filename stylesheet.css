@@ -176,7 +176,9 @@ table tr td {
 
 /* Type Form */
 [data-qa="close-button-mobile"],
-.css-141sqqa {
+[data-qa="popup-close-button"],
+.css-141sqqa,
+.css-c3b2z2 {
   display: none;
 }
 
