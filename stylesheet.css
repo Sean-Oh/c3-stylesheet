@@ -66,6 +66,10 @@ body {
   letter-spacing: 0.15em;
 }
 
+.co-reminder-header button:hover {
+  color: white;
+}
+
 .co-reminder-header button i {
   display: none;
 }
@@ -103,6 +107,10 @@ body {
 
 .co-account-dropdown .co-divider {
   display: none;
+}
+
+.prayer-box {
+  color: black;
 }
 
 /* Tabs */
@@ -164,4 +172,14 @@ table tr td {
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+}
+
+/* Type Form */
+[data-qa="close-button-mobile"],
+.css-141sqqa {
+  display: none;
+}
+
+.typeform-share {
+  display: none;
 }
