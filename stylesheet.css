@@ -211,7 +211,8 @@ table tr td {
 /* Custom Rows */
 .cta-row {
   display: flex;
-  margin-bottom: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .cta-row > span {
@@ -225,4 +226,14 @@ table tr td {
   display: flex;
   flex-direction: column;
   padding: 0 10px;
+}
+
+.video-banner {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
