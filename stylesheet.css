@@ -111,10 +111,10 @@ button:focus {
   padding: 0 15px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.4);
-  transition: color 0.5s ease-in;
-  -webkit-transition: color 0.5s ease-in;
-  -moz-transition: color 0.5s ease-in;
-  -o-transition: color 0.5s ease-in;
+  transition: color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
 }
 
 .top-bar-section ul.co-account-dropdown li:not(.has-form) a:not(.button):hover {
@@ -157,10 +157,10 @@ button:focus {
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  transition: all 0.5s ease-in;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }
 
 /* Table */
