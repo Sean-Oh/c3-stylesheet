@@ -233,13 +233,3 @@ table tr td {
   flex-direction: column;
   padding: 0 10px;
 }
-
-.video-banner {
-  background-color: black;
-  color: white;
-  padding: 20px;
-  font-family: canada-type-gibson, sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-}
