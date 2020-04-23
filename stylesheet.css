@@ -190,10 +190,16 @@ table tr td {
   letter-spacing: 0.15em;
 }
 
+.co-live-prayer:active,
+.co-live-prayer:focus {
+  background-color: black;
+}
+
 .event-details h2 {
   font-family: canada-type-gibson, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  margin-left: 20px;
 }
 
 /* Type Form */
@@ -215,7 +221,7 @@ table tr td {
   margin-bottom: 40px;
 }
 
-.cta-row > span {
+.cta-column > span {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-size: 12px;
