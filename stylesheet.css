@@ -19,6 +19,22 @@ body {
   text-transform: uppercase;
 }
 
+.top-bar-section ul li > a.button {
+  font-family: canada-type-gibson, sans-serif;
+  line-height: 30px;
+  border-radius: 300px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.top-bar-section ul li > a.button:hover {
+  color: white;
+  background-color: black;
+}
+
 /* Countdown Styles */
 .co-reminder-header > div {
   padding: 30px 0px;
@@ -174,6 +190,12 @@ table tr td {
   letter-spacing: 0.15em;
 }
 
+.event-details h2 {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 /* Type Form */
 [data-qa="close-button-mobile"],
 [data-qa="popup-close-button"],
@@ -184,4 +206,23 @@ table tr td {
 
 .typeform-share {
   display: none;
+}
+
+/* Custom Rows */
+.cta-row {
+  display: flex;
+  margin-bottom: 20px 0;
+}
+
+.cta-row > span {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+  text-align: center;
+}
+
+.cta-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
 }
