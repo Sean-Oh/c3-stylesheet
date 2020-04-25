@@ -202,7 +202,7 @@ table tr td {
 .event-details h2 {
   font-weight: 600;
   text-transform: uppercase;
-  margin-left: 20px;
+  text-align: center;
 }
 
 /* Type Form */
