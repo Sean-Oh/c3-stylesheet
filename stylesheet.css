@@ -42,7 +42,7 @@ button:focus {
 /* Countdown Styles */
 .co-reminder-header > div {
   padding: 30px 0px;
-  background: #8ba7f2;
+  background: #3a7dff;
 }
 
 .co-reminder-header-title {
@@ -180,7 +180,7 @@ table {
 table tr.even,
 table tr.alt,
 table tr:nth-of-type(even) {
-  background: white;
+  background: inherit;
 }
 
 table tbody tr td,
