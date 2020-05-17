@@ -42,7 +42,7 @@ button:focus {
 /* Countdown Styles */
 .co-reminder-header > div {
   padding: 30px 0px;
-  background: #3a7dff;
+  background: #ffa386;
 }
 
 .co-reminder-header-title {
@@ -212,6 +212,7 @@ table tr td {
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
+  font-size: 16px;
 }
 
 /* Type Form */
